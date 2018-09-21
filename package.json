@@ -8,7 +8,7 @@
   "scripts": {
     "prebuild": "run-s clean-build lint test",
     "build": "tsc -p ./tsconfig.json",
-    "clean-build": "rimraf ./build && mkdir build",
+    "clean-build": "rimraf ./lib && mkdir lib",
     "prettier": "prettier --loglevel warn --write \"src/**/*.{ts,tsx}\"",
     "prelint": "npm run prettier",
     "lint": "tslint --fix -c tslint.json -t stylish -p ./tsconfig.json",
