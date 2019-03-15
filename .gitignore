@@ -62,3 +62,6 @@ typings/
 
 # compiled lib
 lib
+package-lock.json
+out.tap
+junit-testresults.xml
