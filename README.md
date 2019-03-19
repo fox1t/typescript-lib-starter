@@ -32,11 +32,6 @@ Stater kit for modern TypeScript library. Generate JS ready to be published on n
 - `tslint-config-prettier`: makes tslint work nice with prettier
 - `typescript`
 
-## Reference for typings augmentation
-
-- [ts-node](https://github.com/TypeStrong/ts-node#help-my-types-are-missing)
-- [typescriptlang handbook](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#types-typeroots-and-types)
-
 ## License
 
 MIT

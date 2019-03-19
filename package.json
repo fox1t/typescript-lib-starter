@@ -7,8 +7,9 @@
   "author": "Maksim Sinik <maksim@sinik.it>",
   "license": "MIT",
   "scripts": {
-    "prebuild": "npm run lint",
+    "prebuild": "npm run clean-build && npm run lint",
     "build": "tsc -p ./tsconfig.json",
+    "clean-build": "rimraf ./lib && mkdir lib",
     "update": "npx npm-check -u",
     "prettier": "prettier --loglevel warn --write \"src/**/*.{ts,tsx}\"",
     "prelint": "npm run prettier",

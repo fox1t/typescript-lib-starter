@@ -8,7 +8,6 @@
     "pretty": true,
     "noEmitOnError": true,
     "experimentalDecorators": true,
-    "sourceMap": true,
     "emitDecoratorMetadata": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
@@ -18,7 +17,6 @@
     "lib": [
       "esnext"
     ],
-    "typeRoots": ["node_modules/@types", "./typings"]
   },
   "formatCodeOptions": {
     "identSize": 2,
