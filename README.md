@@ -16,6 +16,7 @@ Stater kit for modern TypeScript library. Generate JS ready to be published on n
 - `npm run build`: build TypeScript sources to lib directory
 - `npm publish`: builds and publishes lib to [npmjs.com](https://www.npmjs.com)
 - `npm test`: run tests inside `./test` directory using [tap](https://www.npmjs.com/package/tap)
+- `npm run test:watch`: watches `src/` and `test/` folders and restarts compilation and tests
 - `npm run test:report`: saves test report to `out.tap` file
 - `npm run test:reporter`: converts `out.tap` file to junit
 
@@ -24,6 +25,7 @@ Stater kit for modern TypeScript library. Generate JS ready to be published on n
 - `cross-env`: sets TS_NODE_PROJECT for running tests with tap/ts-node crossplatform
 - `husky`: runs precommit `lint` hook
 - `rimraf`: removes `lib` folder crossplatform
+- `chokidar-cli`: file watcher
 - `tap`: test runner
 - `tap-mocha-reporter`: mocha reporter for tap
 - `ts-node`: runs tests without compiling

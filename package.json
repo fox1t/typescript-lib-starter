@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "npm run clean-build && npm run lint",
-    "build": "tsc -p ./tsconfig.json",
+    "build": "tsc",
     "clean-build": "rimraf ./lib && mkdir lib",
     "update": "npx npm-check -u",
     "prettier": "prettier --loglevel warn --write \"src/**/*.{ts,tsx}\"",
@@ -16,7 +16,9 @@
     "lint": "tslint --fix -c tslint.json -t stylish -p ./tsconfig.json",
     "postlint": "tsc --noEmit -p ./tsconfig.json",
     "prepublishOnly": "npm run build",
-    "test": "tap -J tests/**/*.ts",
+    "test": "npm run build && tap -J tests/**/*.ts",
+    "test:watch": "chokidar \"src/**/*.ts\" \"tests/**/*.ts\" -c \"npm run build-and-test\"",
+    "build-and-test": "rimraf ./lib && tsc && tap -J \"tests/**/*.ts\"",
     "test:report": "npm run test | tee out.tap",
     "test:reporter": "tap-mocha-reporter xunit < out.tap > junit-testresults.xml"
   },
@@ -31,6 +33,7 @@
   "homepage": "https://github.com/fox1t/typescript-lib-starter#readme",
   "devDependencies": {
     "@types/node": "~11.11.3",
+    "chokidar-cli": "~1.2.2",
     "husky": "~1.3.1",
     "prettier": "~1.16.4",
     "rimraf": "~2.6.3",
