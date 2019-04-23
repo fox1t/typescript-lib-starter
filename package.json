@@ -7,7 +7,7 @@
   "author": "Maksim Sinik <maksim@sinik.it>",
   "license": "MIT",
   "scripts": {
-    "prebuild": "npm run clean-build && npm run lint",
+    "prebuild": "npm run lint && npm run clean-build",
     "build": "tsc",
     "clean-build": "rimraf ./lib && mkdir lib",
     "update": "npx npm-check -u",
@@ -16,7 +16,7 @@
     "lint": "tslint --fix -c tslint.json -t stylish -p ./tsconfig.json",
     "postlint": "tsc --noEmit -p ./tsconfig.json",
     "prepublishOnly": "npm run build",
-    "test": "npm run build && tap -J tests/**/*.ts",
+    "test": "npm run build && tap tests/**/*.ts",
     "test:watch": "chokidar \"src/**/*.ts\" \"tests/**/*.ts\" -c \"npm run build-and-test\"",
     "build-and-test": "rimraf ./lib && tsc && tap -J \"tests/**/*.ts\"",
     "test:report": "npm run test | tee out.tap",
