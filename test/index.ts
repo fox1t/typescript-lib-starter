@@ -1,5 +1,5 @@
 import { test } from 'tap'
-import main from '../lib'
+import main from '../src'
 
 test(`should return 'put your code here'`, t => {
   t.plan(1)
