@@ -17,7 +17,7 @@
     "prepublishOnly": "npm run build",
     "test": "npm run lint && npm run tap",
     "tap": "tap test/**/*.ts",
-    "test:watch": "chokidar \"src/**/*.ts\" \"test/**/*.ts\" -c \"npm run tap\"",
+    "test:watch": "chokidar \"src/**/*.ts\" \"test/**/*.ts\" -c \"npm run tap\" --initial",
     "test:report": "npm run test | tee out.tap",
     "test:reporter": "tap-mocha-reporter xunit < out.tap > junit-testresults.xml"
   },
