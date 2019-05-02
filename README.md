@@ -2,9 +2,9 @@
 Stater kit for modern TypeScript library. Generate JS ready to be published on npm.
 
 ## Clone the repo
-`$ git clone git@github.com:fox1t/typescript-lib-starter.git`
+`$ git clone git@github.com:fox1t/typescript-lib-starter.git {your_project_name}`
 
-`$ cd typescript-lib-starter`
+`$ cd {your_project_name}`
 
 ## Remove reference to the original starter
 `$ rm -rf .git && git init && npm init`
