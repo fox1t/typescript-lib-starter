@@ -20,6 +20,9 @@ Stater kit for modern TypeScript library. Generate JS ready to be published on n
 - `npm run test:report`: saves test report to `out.tap` file
 - `npm run test:reporter`: converts `out.tap` file to junit
 
+## Typings augmentation
+This starter is already configured to allow you to extend typings of external packages. The logic behind it is based on [this](https://www.typescriptlang.org/docs/handbook/declaration-files/templates/module-plugin-d-ts.html) official template. To augment a module, create a folder with the same name as the module you are augmenting and add an index.d.ts in it. [Here](https://github.com/fox1t/fastify-websocket-router/tree/master/typings/fastify) you can find  a real world example.
+
 ## Dev Dependencies
 
 - `cross-env`: sets TS_NODE_PROJECT for running tests with tap/ts-node crossplatform
