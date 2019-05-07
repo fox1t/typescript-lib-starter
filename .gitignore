@@ -1,3 +1,4 @@
+.DS_Store
 # Logs
 logs
 *.log
@@ -59,6 +60,10 @@ jspm_packages/
 
 # compiled lib
 lib
-package-lock.json
+
+# TAP files
 out.tap
 junit-testresults.xml
+
+# Misc
+package-lock.json
