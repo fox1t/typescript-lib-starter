@@ -1,4 +1,4 @@
-# TypeScript Lib Starter
+# TypeScript Lib Starter    [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 Stater kit for modern TypeScript library. Generate JS ready to be published on npm.
 
 ## Clone the repo
