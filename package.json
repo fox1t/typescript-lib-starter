@@ -1,7 +1,7 @@
 {
   "name": "typescript-lib-starter",
-  "version": "1.1.2",
-  "description": "Put here a lib's description.",
+  "version": "0.0.1",
+  "description": "Put here a description.",
   "main": "./lib",
   "types": "./lib",
   "author": "Maksim Sinik <maksim@sinik.it>",
