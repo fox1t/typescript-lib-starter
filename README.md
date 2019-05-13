@@ -59,6 +59,11 @@ If you use this starter, add this badge to your project to help standardising TS
 
 [![built with typescript-lib-starter](https://img.shields.io/badge/built%20with-typescript--lib--starter%20-blue.svg)](https://github.com/fox1t/typescript-lib-starter)
 
+## Example libs built with TypeScript Lib Starter
+- [qs-to-mongo](https://github.com/fox1t/qs-to-mongo)
+- [fastify-websocket-router](https://github.com/fox1t/fastify-websocket-router)
+- [fastify-flash](https://github.com/fastify/fastify-flash)
+
 ## License
 
 MIT
