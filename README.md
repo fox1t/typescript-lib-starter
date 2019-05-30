@@ -3,8 +3,8 @@
 [![TypeScript 3.5](https://img.shields.io/badge/TypeScript%20-3.5-blue.svg)](https://github.com/prettier/prettier)
 [![styled with prettier](https://img.shields.io/badge/styled%20with-Prettier-blue.svg)](https://github.com/prettier/prettier)
 [![styled with prettier](https://img.shields.io/badge/linted%20by-TSLint-brightgreen.svg)](https://palantir.github.io/tslint/)
-[![styled with prettier](https://img.shields.io/badge/tested%20with-node--tap-yellow.svg)](https://github.com/tapjs/node-tap)
-[![styled with prettier](https://img.shields.io/badge/built%20on%20-Azure%20Pipelines-green.svg)](https://dev.azure.com)
+[![styled with prettier](https://img.shields.io/badge/tested%20with-node--tap-green.svg)](https://github.com/tapjs/node-tap)
+[![styled with prettier](https://img.shields.io/badge/built%20on%20-Azure%20Pipelines-purple.svg)](https://dev.azure.com)
 
 Stater kit for modern TypeScript libraries. Generates JavaScript ready to be published on npm.
 
@@ -62,9 +62,10 @@ If you use this starter, add this badge to your project to help standardising TS
 [![built with typescript-lib-starter](https://img.shields.io/badge/built%20with-typescript--lib--starter%20-blue.svg)](https://github.com/fox1t/typescript-lib-starter)
 
 ## Example libs built with TypeScript Lib Starter
-- [qs-to-mongo](https://github.com/fox1t/qs-to-mongo)
-- [fastify-websocket-router](https://github.com/fox1t/fastify-websocket-router)
 - [fastify-flash](https://github.com/fastify/fastify-flash)
+- [qs-to-mongo](https://github.com/fox1t/qs-to-mongo)
+- [mongo-autoincrement](https://github.com/fox1t/mongo-autoincrement)
+- [fastify-websocket-router](https://github.com/fox1t/fastify-websocket-router)
 
 ## License
 
