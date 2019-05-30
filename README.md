@@ -1,5 +1,6 @@
 # TypeScript Lib Starter ![TypeScript Lib Starter](https://user-images.githubusercontent.com/6388707/58274163-9204dc00-7d92-11e9-8746-6cd10e9aa9ea.png)
 
+[![TypeScript 3.5](https://img.shields.io/badge/TypeScript%20-3.5-blue.svg)](https://github.com/prettier/prettier)
 [![styled with prettier](https://img.shields.io/badge/styled%20with-Prettier-blue.svg)](https://github.com/prettier/prettier)
 [![styled with prettier](https://img.shields.io/badge/linted%20by-TSLint-brightgreen.svg)](https://palantir.github.io/tslint/)
 [![styled with prettier](https://img.shields.io/badge/tested%20with-node--tap-yellow.svg)](https://github.com/tapjs/node-tap)
