@@ -14,6 +14,7 @@ Stater kit for modern TypeScript libraries. Generates JavaScript ready to be pub
 - [node-tap](https://github.com/tapjs/node-tap) for testing and code coverage
 - [tap-mocha-reporter](https://github.com/tapjs/tap-mocha-reporter) for test reporting
 - [Azure DevOps](https://dev.azure.com/) configuration file for CI/CD
+- [GitHub Actions](https://github.com/features/actions) configuration file for github actions workflow
 
 ## Clone the repo
 `$ git clone git@github.com:fox1t/typescript-lib-starter.git {your_project_name}`
