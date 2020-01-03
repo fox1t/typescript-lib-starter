@@ -1,10 +1,10 @@
 # TypeScript Lib Starter ![TypeScript Lib Starter](https://user-images.githubusercontent.com/6388707/58274163-9204dc00-7d92-11e9-8746-6cd10e9aa9ea.png)
 
+[![GitHub CI](https://github.com/fox1t/typescript-lib-starter/workflows/ci/badge.svg)](https://github.com/fox1t/typescript-lib-starter/actions) 
 [![TypeScript 3.5](https://img.shields.io/badge/TypeScript%20-3.5-blue.svg)](https://github.com/prettier/prettier)
-[![styled with prettier](https://img.shields.io/badge/styled%20with-Prettier-blue.svg)](https://github.com/prettier/prettier)
-[![styled with prettier](https://img.shields.io/badge/linted%20by-TSLint-brightgreen.svg)](https://palantir.github.io/tslint/)
-[![styled with prettier](https://img.shields.io/badge/tested%20with-node--tap-green.svg)](https://github.com/tapjs/node-tap)
-[![styled with prettier](https://img.shields.io/badge/built%20on%20-Azure%20Pipelines-purple.svg)](https://dev.azure.com)
+[![prettier](https://img.shields.io/badge/styled%20with-Prettier-blue.svg)](https://github.com/prettier/prettier)
+[![tslint](https://img.shields.io/badge/linted%20by-TSLint-brightgreen.svg)](https://palantir.github.io/tslint/)
+[![node-tap](https://img.shields.io/badge/tested%20with-node--tap-green.svg)](https://github.com/tapjs/node-tap)
 
 Stater kit for modern TypeScript libraries. Generates JavaScript ready to be published on npm.
 
