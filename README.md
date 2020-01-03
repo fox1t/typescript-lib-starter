@@ -62,7 +62,7 @@ If you use this starter, add this badge to your project to help standardising TS
 
 [![built with typescript-lib-starter](https://img.shields.io/badge/built%20with-typescript--lib--starter%20-blue.svg)](https://github.com/fox1t/typescript-lib-starter)
 
-## Example libs built with TypeScript Lib Starter
+## Node libraries built with TypeScript Lib Starter
 - [fastify-flash](https://github.com/fastify/fastify-flash)
 - [qs-to-mongo](https://github.com/fox1t/qs-to-mongo)
 - [mongo-autoincrement](https://github.com/fox1t/mongo-autoincrement)
