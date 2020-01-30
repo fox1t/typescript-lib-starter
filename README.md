@@ -6,7 +6,7 @@
 [![tslint](https://img.shields.io/badge/linted%20by-TSLint-brightgreen.svg)](https://palantir.github.io/tslint/)
 [![node-tap](https://img.shields.io/badge/tested%20with-node--tap-green.svg)](https://github.com/tapjs/node-tap)
 
-Stater kit for modern TypeScript libraries. Generates JavaScript ready to be published on npm.
+Starter kit for modern TypeScript libraries. Generates JavaScript ready to be published on npm.
 
  Batteries included. Period.
 - [Prettier](https://prettier.io/) and [TSlint](https://palantir.github.io/tslint/) for formatting and linting
@@ -56,7 +56,7 @@ Includes `azure-pipelines.yml` configuration file. You can build, test and publi
 - `typescript`
 
 ## Spread the word
-If you use this starter, add this badge to your project to help standardising TS library develpment.
+If you use this starter, add this badge to your project to help standardising TS library development.
 
 `[![built with typescript-lib-starter](https://img.shields.io/badge/built%20with-typescript--lib--starter%20-blue.svg)](https://github.com/fox1t/typescript-lib-starter)`
 
