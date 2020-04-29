@@ -27,6 +27,15 @@ Starter kit for modern TypeScript libraries. Generates JavaScript ready to be pu
 ## Install development dependencies
 `$ npm i`
 
+## Add remote origin and make initial commit
+`$ git remote add origin git@github.com:{your_repository}.git`
+
+`$ git add .`
+
+`$ git commit -m "Initial commit"`
+
+`$ git push -u origin master`
+
 ## Scripts
 - `npm run build`: build TypeScript sources to lib directory
 - `npm publish`: builds and publishes lib to [npmjs.com](https://www.npmjs.com)
