@@ -1,7 +1,7 @@
 # TypeScript Lib Starter ![TypeScript Lib Starter](https://user-images.githubusercontent.com/6388707/58274163-9204dc00-7d92-11e9-8746-6cd10e9aa9ea.png)
 
-[![GitHub CI](https://github.com/fox1t/typescript-lib-starter/workflows/ci/badge.svg)](https://github.com/fox1t/typescript-lib-starter/actions) 
-[![TypeScript 3.5](https://img.shields.io/badge/TypeScript%20-3.5-blue.svg)](https://github.com/prettier/prettier)
+[![GitHub CI](https://github.com/fox1t/typescript-lib-starter/workflows/ci/badge.svg)](https://github.com/fox1t/typescript-lib-starter/actions)
+[![TypeScript 4.0](https://img.shields.io/badge/TypeScript%20-4.0-blue.svg)](https://github.com/microsoft/TypeScript)
 [![prettier](https://img.shields.io/badge/styled%20with-Prettier-blue.svg)](https://github.com/prettier/prettier)
 [![tslint](https://img.shields.io/badge/linted%20by-TSLint-brightgreen.svg)](https://palantir.github.io/tslint/)
 [![node-tap](https://img.shields.io/badge/tested%20with-node--tap-green.svg)](https://github.com/tapjs/node-tap)
@@ -13,7 +13,6 @@ Starter kit for modern TypeScript libraries. Generates JavaScript ready to be pu
 - [ts-node](https://github.com/TypeStrong/ts-node) for tests execution
 - [node-tap](https://github.com/tapjs/node-tap) for testing and code coverage
 - [tap-mocha-reporter](https://github.com/tapjs/tap-mocha-reporter) for test reporting
-- [Azure DevOps](https://dev.azure.com/) configuration file for CI/CD
 - [GitHub Actions](https://github.com/features/actions) configuration file for github actions workflow
 
 ## Clone the repo
