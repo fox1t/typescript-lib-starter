@@ -3,13 +3,13 @@
 [![GitHub CI](https://github.com/fox1t/typescript-lib-starter/workflows/ci/badge.svg)](https://github.com/fox1t/typescript-lib-starter/actions)
 [![TypeScript 4.0](https://img.shields.io/badge/TypeScript%20-4.0-blue.svg)](https://github.com/microsoft/TypeScript)
 [![prettier](https://img.shields.io/badge/styled%20with-Prettier-blue.svg)](https://github.com/prettier/prettier)
-[![tslint](https://img.shields.io/badge/linted%20by-TSLint-brightgreen.svg)](https://palantir.github.io/tslint/)
+[![ESLlint](https://img.shields.io/badge/linted%20by-ESLint-brightgreen.svg)](https://eslint.org)
 [![node-tap](https://img.shields.io/badge/tested%20with-node--tap-green.svg)](https://github.com/tapjs/node-tap)
 
 Starter kit for modern TypeScript libraries. Generates JavaScript ready to be published on npm.
 
  Batteries included. Period.
-- [Prettier](https://prettier.io/) and [TSlint](https://palantir.github.io/tslint/) for formatting and linting
+- [Prettier](https://prettier.io/) and [ESLlint](https://eslint.org) for formatting and linting
 - [ts-node](https://github.com/TypeStrong/ts-node) for tests execution
 - [node-tap](https://github.com/tapjs/node-tap) for testing and code coverage
 - [tap-mocha-reporter](https://github.com/tapjs/tap-mocha-reporter) for test reporting
@@ -59,8 +59,8 @@ Includes `azure-pipelines.yml` configuration file. You can build, test and publi
 - `tap-mocha-reporter`: mocha reporter for tap
 - `ts-node`: runs tests without compiling
 - `prettier`
-- `tslint`
-- `tslint-config-prettier`: makes tslint work nice with prettier
+- `eslint`
+- `eslint-config-prettier`: makes ESLint work nice with prettier
 - `typescript`
 
 ## Spread the word
