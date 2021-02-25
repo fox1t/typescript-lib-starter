@@ -36,7 +36,7 @@ Starter kit for modern TypeScript libraries. Generates JavaScript ready to be pu
 `$ git push -u origin master`
 
 ## Scripts
-- `npm run build`: build TypeScript sources to lib directory
+- `npm run build`: build TypeScript sources to dist directory
 - `npm publish`: builds and publishes lib to [npmjs.com](https://www.npmjs.com)
 - `npm test`: run tests in `./test` directory using [tap](https://www.npmjs.com/package/tap)
 - `npm run test:watch`: watches `./src/` and `./test/` folders and restarts compilation and tests
