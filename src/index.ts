@@ -1,1 +1,1 @@
-export default () => 'put your code here'
+export default (): string => 'put your code here'

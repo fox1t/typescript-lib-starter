@@ -11,11 +11,11 @@
     "build": "tsc",
     "clean-build": "rimraf ./dist && mkdir dist",
     "update": "npx npm-check -u",
-    "prettier": "prettier --loglevel warn --write \"src/**/*.{ts,tsx}\"",
+    "prettier": "prettier --loglevel warn --write \"src/**/*.{ts,tsx}\" \"test/**/*.ts\"",
     "prelint": "npm run prettier",
-    "lint": "tslint --fix -c tslint.json -t stylish -p ./tsconfig.json",
+    "lint": "eslint --fix --ext .ts --no-error-on-unmatched-pattern \"src/**/*.ts\" \"test/**/*.ts\"",
     "prepublishOnly": "npm run build",
-    "test": "cross-env TS_NODE_PROJECT=./test/tsconfig.json tap --no-ts --node-arg=--require=ts-node/register test/**/*.ts",
+    "test": "cross-env TS_NODE_PROJECT=./test/tsconfig.json tap test/**/*.ts",
     "test:watch": "chokidar \"src/**/*.ts\" \"test/**/*.ts\" -c \"npm run test\" --initial",
     "test:report": "npm run test | tee out.tap",
     "test:reporter": "tap-mocha-reporter xunit < out.tap > junit-testresults.xml"
@@ -30,19 +30,23 @@
   },
   "homepage": "https://github.com/fox1t/typescript-lib-starter#readme",
   "devDependencies": {
-    "@types/node": "^14.10.1",
-    "@types/tap": "^14.10.1",
+    "@types/node": "^14.14.31",
+    "@types/tap": "^14.10.2",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
     "chokidar-cli": "^2.1.0",
-    "fox1t-tsconfig": "^0.1.0",
-    "husky": "^4.3.0",
-    "prettier": "^2.1.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "fox1t-tsconfig": "^0.2.0",
+    "husky": "^5.1.1",
+    "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
-    "tap": "^14.10.8",
+    "tap": "^14.11.0",
     "tap-mocha-reporter": "^5.0.1",
-    "ts-node": "^9.0.0",
-    "tslint": "^6.1.3",
-    "tslint-config-prettier": "~1.18.0",
-    "typescript": "^4.0.2"
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2"
   },
   "files": [
     "/dist",
@@ -53,7 +57,5 @@
       "pre-commit": "npm run test && npm run build"
     }
   },
-  "dependencies": {
-    "cross-env": "^7.0.2"
-  }
+  "dependencies": {}
 }
