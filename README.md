@@ -51,7 +51,6 @@ Includes `azure-pipelines.yml` configuration file. You can build, test and publi
 
 ## Dev Dependencies
 
-- `cross-env`: sets TS_NODE_PROJECT for running tests with tap/ts-node crossplatform
 - `husky`: runs precommit `lint` hook
 - `rimraf`: removes `lib` folder crossplatform
 - `chokidar-cli`: file watcher
